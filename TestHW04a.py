@@ -11,7 +11,7 @@ from unittest.mock import patch
 from HW04a import getRepo
 from HW04a import getCommit
 from HW04a import my_brand
-my_brand("HW 02a- Testing a legacy program and reporting on testing results")
+my_brand("HW04a-Develop-with-the-Perspective-of-the-Tester-in-mind")
 
 
 class TestApi(unittest.TestCase):
