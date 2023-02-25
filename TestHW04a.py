@@ -25,8 +25,8 @@ class TestApi(unittest.TestCase):
     
     def testCommits(self):
         user = 'richkempinski'
-        name = 'threads-of-life'
-        self.assertEqual(getCommit(user,name),1)
+        name = 'try_nbdev'
+        self.assertEqual(getCommit(user,name),2)
        
 
 if __name__ == '__main__':
