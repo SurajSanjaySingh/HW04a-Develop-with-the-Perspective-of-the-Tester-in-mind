@@ -10,7 +10,7 @@ def my_brand(assignment):
   current_time = datetime.datetime.now()
   print("\n=*=*=*= Suraj Sanjay Singh =*=*=*=")
   print("=*=*=*= Course 2023S-SSW567-A =*=*=*=")
-  print("=*=*=*= HW04a-Develop-with-the-Perspective-of-the-Tester-in-mind =*=*=*=")
+  print("=*=*=*= " + assignment + " =*=*=*=")
   print("=*=*=*= " + current_time.strftime("%m/%d/%Y, %H:%M:%S") + " =*=*=*=\n")
     
     
