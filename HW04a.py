@@ -17,7 +17,7 @@ def my_brand(assignment):
 import requests
 
 def getCommit(user,name):
-    getCommit_url ="https://api.github.com/repos/"+f'{user}' +"/" + name + "/commits"
+    getCommit_url ="https://api.github.com/repos/"+user +"/" + name + "/commits"
     commitResp = requests.get(getCommit_url)
     commitResp_json = commitResp.json()
     value1=len(commitResp_json)
