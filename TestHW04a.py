@@ -13,7 +13,7 @@ from HW04a import getCommit
 
 
 class TestApi(unittest.TestCase):
-    @patch('g1.requests.get')
+    @patch('HW04a.requests.get')
     
 
 #Testing Valid user name :
