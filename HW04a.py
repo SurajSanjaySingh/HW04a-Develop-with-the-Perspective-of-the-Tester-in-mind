@@ -5,7 +5,15 @@ Created on Fri Feb 22 18:44:01 2023
 
 Homework: 04a - Develop with the Perspective of the Tester in mind
 """
-
+def my_brand(assignment):
+  import datetime
+  current_time = datetime.datetime.now()
+  print("\n=*=*=*= Suraj Sanjay Singh =*=*=*=")
+  print("=*=*=*= Course 2023S-SSW567-A =*=*=*=")
+  print("=*=*=*= HW04a-Develop-with-the-Perspective-of-the-Tester-in-mind =*=*=*=")
+  print("=*=*=*= " + current_time.strftime("%m/%d/%Y, %H:%M:%S") + " =*=*=*=\n")
+    
+    
 import requests
 
 def getCommit(user,name):
