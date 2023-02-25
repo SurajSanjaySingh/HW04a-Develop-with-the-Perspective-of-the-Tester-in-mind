@@ -14,7 +14,7 @@ jobs:
             pip install --upgrade pip
             pip install requests
             pip install pytest
-            pytest --junitxml=test-results/junit.xml HW04a/TestHW04a.py
+            pytest --junitxml=test-results/junit.xml TestHW04a.py
       - store_test_results:
           path: test-results
 
